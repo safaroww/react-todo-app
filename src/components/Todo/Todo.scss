@@ -1,0 +1,29 @@
+.Todo {
+    display: flex;
+    padding: 16px 0px;
+    background: #262626;
+    border-radius: 8px;
+    border: 1px solid #333;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+
+    .content {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        &-checked{
+            text-decoration-line: line-through;
+            color: #808080;
+        }
+    }
+    .checkbox-div, .trash-div {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-basis: 60px;
+    }
+    .trash-div img{
+        cursor: pointer;
+    }
+}
+

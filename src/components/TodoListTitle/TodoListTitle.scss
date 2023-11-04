@@ -1,0 +1,25 @@
+.TodoListTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+    .total-todo {
+        display: flex;
+        gap: 10px;
+    }
+    .completed-todo {
+        display: flex;
+        gap: 10px;
+    }
+    .count{
+        background: #333333;
+        height: 19px;
+        padding: 2px 8px;
+        border-radius: 999px;
+    }
+    .text{
+        color: #4EA8DE;
+        font-weight: bold;
+    }
+}

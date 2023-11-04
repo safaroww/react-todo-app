@@ -1,0 +1,25 @@
+.CheckBox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #4EA8DE;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    .checked-icon{
+        display: none;
+        position: absolute;
+        width: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &-checked {
+        background: #5E60CE;
+        border: 2px solid #5E60CE;
+        .checked-icon {
+            display: block;
+        }
+    }
+}
+
+
